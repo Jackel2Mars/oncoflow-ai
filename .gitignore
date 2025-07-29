@@ -1,0 +1,40 @@
+# Environnement virtuel
+.venv/
+env/
+venv/
+
+# Caches Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/*.json
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# FAISS index files (si générés localement)
+*.index
+*.faiss
+
+# Données de test ou sorties temporaires
+*.out
+*.test
+*.jsonl
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Notebooks convertis
+.ipynb_checkpoints/
+
+# Ollama model cache (si applicable et local)
+ollama_models/
